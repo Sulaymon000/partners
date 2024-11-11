@@ -1,0 +1,27 @@
+.gallery {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  margin-top: 160px;
+  span {
+    color: white;
+    font-size: 52px;
+    font-weight: 400;
+  }
+  p {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+    color: white;
+  }
+
+  .active {
+    border-radius: 10px;
+  }
+  .img_box {
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    margin-top: 44px;
+  }
+}

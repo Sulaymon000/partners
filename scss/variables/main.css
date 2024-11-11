@@ -1,0 +1,277 @@
+header {
+  margin: auto;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+header .nav {
+  margin: auto;
+  padding: 30px 126px 30px 40px;
+}
+header .nav__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 185px;
+  justify-content: center;
+}
+header ul {
+  display: flex;
+  gap: 41px;
+}
+header ul a {
+  color: white;
+  text-decoration-line: none;
+}
+header ul li {
+  list-style: none;
+}
+header button {
+  padding: 13px 46px;
+  border: white solid 1px;
+  color: white;
+  background: none;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+header button:hover {
+  background-color: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #181818;
+}
+
+.hero {
+  text-align: center;
+  position: relative;
+  margin-top: 95px;
+}
+.hero h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: 500;
+  margin-bottom: 27px;
+}
+.hero .hero__describe {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 95px;
+}
+.hero .hero_br {
+  display: none;
+}
+.hero .hero__btn {
+  border: none;
+  background: #4452fe;
+  color: white;
+  padding: 20px 40px;
+  font-size: 17px;
+  font-weight: 500;
+  border: #4452fe solid 1px;
+  cursor: pointer;
+  margin-right: 35px;
+}
+.hero .hero__button {
+  border: none;
+  background: none;
+  border: white solid 1px;
+  color: white;
+  padding: 20px 40px;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.hero .hero__img-box {
+  position: relative;
+  width: 1550px;
+  margin-inline: auto;
+  margin-top: 35px;
+}
+.hero .Gradient {
+  position: absolute;
+  left: 0%;
+  bottom: -10%;
+  width: 1565px;
+}
+
+.features {
+  width: 100%;
+  margin-top: 162px;
+  text-align: center;
+}
+.features__title {
+  color: white;
+  font-size: 52px;
+  font-weight: 400;
+}
+.features .features__title-desc {
+  margin-top: 27px;
+  margin-bottom: 80px;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.features__img-box {
+  position: relative;
+}
+.features__img-box .chat-bot__img {
+  position: absolute;
+  right: -4.2%;
+  top: 66%;
+}
+.features .wrapper {
+  display: flex;
+  gap: 27px;
+  justify-content: center;
+}
+.features .card {
+  padding: 10px;
+  color: white;
+  text-align: left;
+  margin-top: 74px;
+}
+.features .card__title {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.features .card .card__describe {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contents {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  margin-top: 160px;
+}
+.contents .contents__title {
+  color: white;
+  font-size: 52px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.contents .contents__title-describe {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.contents .wrapper {
+  display: flex;
+  gap: 33px;
+  justify-content: center;
+  margin-top: 54px;
+}
+.contents .card {
+  text-align: center;
+  align-items: center;
+  padding-top: 50px;
+  background-color: white;
+  border-radius: 10px;
+  width: 476px;
+}
+.contents .card span {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+.contents .card p {
+  margin-top: 20px;
+  margin-bottom: 67px;
+  font-size: 16px;
+  color: #5c5c5c;
+  font-weight: 400;
+}
+.contents .card button {
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.1490196078);
+  background: #4452fe;
+  color: white;
+  padding: 13.5px 46px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 57px;
+  transition: 0.3s ease-in-out;
+}
+.contents .card button:hover {
+  transform: scale(1.03);
+  background-color: #0dcaf0;
+  border-radius: 5px;
+}
+.contents .card button:active {
+  background-color: #343a40;
+  border: 1px solid rgba(183, 166, 166, 0.429);
+}
+.contents .card img {
+  margin-bottom: 40px;
+  transition: 0.3s ease-in-out;
+  margin: 0px 35px 40px;
+}
+.contents .card img:hover {
+  transform: scale(1.03);
+}
+
+.gallery {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  margin-top: 160px;
+}
+.gallery span {
+  color: white;
+  font-size: 52px;
+  font-weight: 400;
+}
+.gallery p {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 400;
+  color: white;
+}
+.gallery .active {
+  border-radius: 10px;
+}
+.gallery .img_box {
+  display: flex;
+  justify-content: center;
+  gap: 33px;
+  margin-top: 44px;
+}
+
+.partners {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin-top: 160px;
+}
+.partners .wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 74px;
+}
+.partners span {
+  color: white;
+  font-size: 52px;
+  font-weight: 400;
+}
+.partners p {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  font-size: 20px;
+  font-size: 400;
+}
+.partners button {
+  padding: 13px 40px;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

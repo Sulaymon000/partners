@@ -1,0 +1,42 @@
+header {
+  //   width: 100%;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  .nav {
+    margin: auto;
+    padding: 30px 126px 30px 40px;
+  }
+  .nav__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 185px;
+    justify-content: center;
+  }
+  ul {
+    display: flex;
+    gap: 41px;
+    a {
+      color: white;
+      text-decoration-line: none;
+    }
+    li {
+      list-style: none;
+    }
+  }
+  button {
+    padding: 13px 46px;
+    border: white solid 1px;
+    color: white;
+    background: none;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  button:hover{
+    background-color: black;
+    
+  }
+}

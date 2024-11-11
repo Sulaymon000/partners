@@ -1,0 +1,27 @@
+.partners {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin-top: 160px;
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 74px;
+  }
+  span {
+    color: white;
+    font-size: 52px;
+    font-weight: 400;
+  }
+  p {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-size: 400;
+  }
+  button {
+    padding: 13px 40px;
+    color: white;
+  }
+}
